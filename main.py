@@ -9,4 +9,4 @@ soup = BeautifulSoup(response.text, "html.parser")
 books = soup.select("h3 a")
 
 for i, b in enumerate(books[:10]):
-    print(i, b["title"])
+    print(i, b["title"])[
